@@ -11,8 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-image: url(../img/bg.svg);
-    background-size: cover;
+    background-color: rgb(136, 0, 0);
 }
 
 .container{
@@ -54,32 +53,17 @@ a{
     margin: 100px 0;
 }
 
+.column-2{
+    height: 100vh;
+
+}
 .column-1 {
     margin-bottom: 100px;
     margin-right: 200px;
     position: relative;
 }
 
-/* .column-2{
-    display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
 
-} */
-
-/* .btn-buy {
-    width: 140px;
-    border: none;
-    margin-bottom: 100px;
-    padding: 15px 10px;
-    outline: none;
-    border-radius: 10px;
-    cursor: pointer;
-
-    background: rgb(240, 240, 240);
-    
-} */
 h2{
     font-size: 8rem;
     text-transform: uppercase;
@@ -128,3 +112,6 @@ p{
         opacity:1;
     }
 }
+
+
+
